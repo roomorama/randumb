@@ -9,7 +9,7 @@ module Randumb
 
       # If the max_items argument is omitted, one random entity will be returned.
       # If you provide the integer argument, you will get back an array of records.
-      def random(max_items = nil, opts={})
+      def randumb(max_items = nil, opts={})
         random_weighted(nil, max_items, opts)
       end
 
@@ -127,8 +127,8 @@ module Randumb
 
     # Class methods
     module Base
-      def random(max_items = nil, opts = {})
-        relation.random(max_items, opts)
+      def randumb(max_items = nil, opts = {})
+        relation.randumb(max_items, opts)
       end
 
       def random_weighted(ranking_column, max_items = nil, opts = {})

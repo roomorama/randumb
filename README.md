@@ -1,3 +1,6 @@
+## Removed from Roomorama project July 2015
+
+
 # randumb
 
 [![Gem Version](https://badge.fury.io/rb/randumb.png)](http://badge.fury.io/rb/randumb)
